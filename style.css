@@ -1,76 +1,106 @@
-.main-head {
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 10%;
-  background:#ffffff;
-  margin: auto;
+.namecard {
+  display: inline-block;
+  width: 190px;
+  background-color: #4aaaa5;
+  border: solid 2px;
+  padding: 10px;
 }
+.navi {
+  float: right;
+  display: inline;
+  padding: 25px;
 
-header {
-    position: relative;
-    top: 0;
-    width: 960px;
-    background:#ffffff;
-    margin: auto;
 }
-
-h1 {
-    float:left;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
-
-body {
-    background-color: #cccccc;
-    width: 100%;
-    height: 100%;
-}
-
-.container {
-  margin: auto;
-  margin-top: 20px;
-  position: relative;
-  background-color: #ffffff;
-  width: 960px;
-}
-
-p {
-    float: right;
-}
-
 ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-  }  
-
-img {
-  border: solid 1px;
-}
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white; ;
+  }
+  
+  li {
+  float: right;
+  }
+  
   li a {
-    display: block;
-    color:#4aaaa5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: right;
+  display: block;
+  color:#cccccc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+  background-color: #4aaaa5;
   }
+
+
+header {
+  position: relative;
+  border: solid 2px;
+  width: 100%;
+  border: 2px;
+  background-color: #ffffff
+}
+img { 
+  float:left;
+  padding: 10px;
+}
+
+body { 
+  margin: auto;
+  top: 250px;
+  width: 960px;
+  border: solid 2px;
+  bottom: 250px;
+  background-color: darkgray;
+
+}
+
+.main-content {
+  background-color: #ffffff;
+}
+
+footer {
   
-  footer {
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: #666666;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: fixed;
+  margin: auto;
+  bottom:0;
+  left:0;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  background-color: #cccccc;
+  clear: left;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
